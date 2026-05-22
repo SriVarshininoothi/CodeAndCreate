@@ -1,0 +1,51 @@
+.card {
+background-color: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); /* Soft drop shadow */
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    border-radius: 100%;
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    align-items: center;
+    border-style:groove;
+    
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(183, 209, 209); /* Dark charcoal button */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.skill{
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    gap:8px;
+
+}
+.skill-badge{
+    background-color: antiquewhite;
+    color: #374151;
+    padding: 6px 14px;
+}
