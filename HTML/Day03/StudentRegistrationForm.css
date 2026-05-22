@@ -1,0 +1,19 @@
+.student{
+    background-color:rgb(234, 161, 164);
+    height:100vh;
+    text-align: center;
+    font-family: serif;
+    font-size: 28px;
+    padding: 12px;
+    color: black;
+   
+
+}
+.bt{
+    color: black;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: rgb(215, 209, 214);
+}
