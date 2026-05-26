@@ -5,12 +5,13 @@
 
 }
 h4{
-    color:black;
+    color:white;
     margin-left: 90px;
     font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-line{
+    
     display: flex;
     list-style: none;
     gap: 120px;
@@ -28,3 +29,29 @@ h1{
     font-size: 50px;
     
 }
+.contactform{
+
+    background-color: aquamarine;
+    width:500px;
+    height: 500px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px; 
+      
+}
+.contactform input,
+.contactform textarea{
+
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius:5px;
+    border:1px solid gray;
+
+}
+
+.contactform button{
+    font-size:20px;
+    padding:10px 20px;
+}
+
