@@ -1,57 +1,95 @@
-.navbar{
-    background-color: aquamarine;
+.main-home {
+    background-image: url("/assests/banner1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.main-about {
+    background-image: url("/assests/abstract-pink-fluid-wave-background-free-vector.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+
     display: flex;
     justify-content: space-between;
 
 }
-h4{
-    color:white;
-    margin-left: 90px;
-    font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.logo {
+    display: flex;
+
 }
-.nav-line{
-    
+
+.nav-line {
+
     display: flex;
     list-style: none;
     gap: 120px;
     font-size: 40px;
     margin-right: 80px;
-   
+
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 50px;
-    
+
 }
-.contactform{
+
+.contactform {
 
     background-color: aquamarine;
-    width:500px;
+    width: 500px;
     height: 500px;
     padding: 30px;
     margin: auto;
-    border-radius: 10px; 
-      
+    border-radius: 10px;
+
 }
+
 .contactform input,
-.contactform textarea{
+.contactform textarea {
 
     font-size: 20px;
     padding: 10px;
     width: 100%;
-    border-radius:5px;
-    border:1px solid gray;
+    border-radius: 5px;
+    border: 1px solid gray;
 
 }
 
-.contactform button{
-    font-size:20px;
-    padding:10px 20px;
+.contactform button {
+    font-size: 20px;
+    padding: 10px 20px;
 }
 
+.homehead {
+    color: palevioletred;
+    font-size: 90px;
+
+}
+
+.company {
+    color: palevioletred;
+    margin-left: 90px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    color: rgb(15, 15, 91);
+    margin-left: 90px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
