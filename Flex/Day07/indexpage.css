@@ -5,8 +5,16 @@
     width: 100vw;
 
 }
+.main-conta{
+    background-image:url("/assests/indexpage.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
 
-.main-about {
+.main-about,
+.main-contact,
+.main-services {
     background-image: url("/assests/abstract-pink-fluid-wave-background-free-vector.jpg");
     background-size: cover;
     height: 100vh;
@@ -20,10 +28,7 @@
 
 }
 
-.logo {
-    display: flex;
 
-}
 
 .nav-line {
 
@@ -49,29 +54,32 @@ h1 {
 
 .contactform {
 
-    background-color: aquamarine;
-    width: 500px;
-    height: 500px;
-    padding: 30px;
-    margin: auto;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
 
 }
 
 .contactform input,
 .contactform textarea {
 
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
-    width: 100%;
+    width: 900px;
     border-radius: 5px;
     border: 1px solid gray;
 
 }
 
 .contactform button {
+    margin-top: 40px;
+    justify-content: center;
     font-size: 20px;
     padding: 10px 20px;
+
 }
 
 .homehead {
@@ -90,6 +98,46 @@ h1 {
 .logo {
     color: rgb(15, 15, 91);
     margin-left: 90px;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.about-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.image-about {
+    justify-content: end;
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+    .card1,
+.card2,
+.card3{
+    margin-top: 50px;
+    width:400px;
+    height:600px;
+    background-color: rgb(226, 148, 161);
+    border-radius:20px;
+    padding:20px;
+    text-align:center;
+    font-size: 30px;
+}
+.imagee{
+    border-radius: 20px;
+    height: 230px;
+    width: auto;
+}
+
