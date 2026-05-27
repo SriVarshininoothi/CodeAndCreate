@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: rgba(0,0,0,0.7) !important;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top:0;
+    z-index:1000;
+}
+
+
+/* LOGO */
+
+.navbar-brand{
+    color: orange !important;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* NAV LINKS */
+
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+
+.nav-link:hover{
+    color: orange !important;
+    transform: scale(1.05);
+}
+
+
+/* BUTTON */
+
+.book-btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+.book-btn:hover{
+    background-color: white;
+    color: orange;
+}
+
+
+/* HERO SECTION */
+
+.hero-section{
+
+    height: 100vh;
+
+    background-image: url("/RestaurantWebsite/assests/red-caviar-with-seafood-parsley-and-lime-slices-photo.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+
+/* HERO CARD */
+
+.herocard{
+
+    text-align: center;
+}
+
+
+/* HERO HEADING */
+
+.herocard h1{
+
+    font-size: 70px;
+
+    font-weight: bold;
+
+    color: orange;
+
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+}
+
+
+/* HERO PARAGRAPH */
+
+.herocard p{
+
+    color: white;
+
+    font-size: 22px;
+
+    margin-top: 15px;
+}
+
+
+/* MENU BUTTON */
+
+.menu-btn{
+
+    margin-top: 20px;
+
+    padding: 12px 28px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: orange;
+
+    color: white;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+.menu-btn:hover{
+
+    background-color: white;
+
+    color: orange;
+
+    transform: scale(1.05);
+}
+
+
+
+/* MOBILE VIEW */
+
+@media (max-width:480px){
+
+    /* LOGO */
+
+    .navbar-brand{
+        font-size: 24px;
+    }
+
+
+    /* NAV LINKS */
+
+    .nav-link{
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+    /* NAVBAR MENU */
+
+    .navbar-nav{
+        margin-top: 15px;
+    }
+
+
+    /* BUTTON */
+
+    .book-btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    /* HERO CARD */
+
+    .herocard{
+
+        width:100%;
+
+        display:flex;
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        align-items:center;
+
+        text-align:center;
+    }
+
+
+    /* HERO HEADING */
+
+    .herocard h1{
+        font-size: 36px;
+    }
+
+
+    /* HERO PARAGRAPH */
+
+    .herocard p{
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+}
