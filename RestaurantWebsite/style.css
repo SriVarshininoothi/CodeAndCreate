@@ -153,7 +153,12 @@
     transform: scale(1.05);
 }
 
+.contact-card{
 
+    background-image: url("/RestaurantWebsite/assests/herb-spices-cooking-background_136595-562.avif");
+    background-size: cover;
+    height: 100vh;
+}
 
 /* MOBILE VIEW */
 
@@ -219,6 +224,144 @@
     .herocard p{
         font-size: 14px;
         padding: 0 10px;
+    }
+
+}
+
+
+/* CONTACT SECTION */
+
+.contact-hero{
+
+    min-height: 100vh;
+
+    background-image: url("/RestaurantWebsite/assests/herb-spices-cooking-background_136595-562.avif");
+
+    padding: 60px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+     background-size: cover;
+}
+
+
+/* LEFT TEXT */
+
+.contact-text h1{
+
+    color: orange;
+
+    font-size: 55px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.contact-text p{
+
+    color: black;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+
+/* CONTACT INFO */
+
+.contact-info h5{
+
+    color: black;
+
+    margin-bottom: 18px;
+
+    font-size: 18px;
+}
+
+
+/* FORM BOX */
+
+.contact-form{
+
+    background-color: #1b1b1b;
+
+    padding: 35px;
+
+    border-radius: 15px;
+}
+
+
+/* INPUTS */
+
+.form-control{
+
+    padding: 12px;
+
+    border: none;
+}
+
+
+/* BUTTON */
+
+.send-btn{
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: orange;
+
+    color: white;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+/* BUTTON HOVER */
+
+.send-btn:hover{
+
+    background-color: white;
+
+    color: orange;
+}
+
+
+
+/* MOBILE VIEW */
+
+@media(min-width:0px) and (max-width:480px){
+
+    .contact-text{
+        text-align:center;
+        margin-bottom:40px;
+    }
+
+    .contact-text h1{
+        font-size:38px;
+    }
+
+    .contact-text p{
+        font-size:15px;
+    }
+
+    .contact-info h5{
+        font-size:15px;
+    }
+
+    .contact-form{
+        padding:20px;
     }
 
 }
