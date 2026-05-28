@@ -235,8 +235,7 @@
 
     min-height: 100vh;
 
-    background-image: url("/RestaurantWebsite/assests/herb-spices-cooking-background_136595-562.avif");
-
+     background-color: black;
     padding: 60px 20px;
 
     display: flex;
@@ -264,7 +263,7 @@
 
 .contact-text p{
 
-    color: black;
+    color: white;
 
     font-size: 18px;
 
@@ -276,7 +275,7 @@
 
 .contact-info h5{
 
-    color: black;
+    color: white;
 
     margin-bottom: 18px;
 
@@ -362,6 +361,386 @@
 
     .contact-form{
         padding:20px;
+    }
+
+}
+/* ABOUT SECTION */
+
+.about-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+    min-height: 100vh;
+
+   background-color: black;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+
+/* DARK OVERLAY */
+
+.about-overlay{
+
+    background-color: rgba(0,0,0,0.7);
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+/* CONTENT */
+
+.about-content{
+
+    color: white;
+
+    max-width: 700px;
+
+    text-align: center;
+}
+
+
+/* SMALL HEADING */
+
+.about-content h4{
+
+    color: orange;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+}
+
+
+/* MAIN HEADING */
+
+.about-content h1{
+
+    font-size: 55px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+/* PARAGRAPH */
+
+.about-content p{
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    color: #e0e0e0;
+
+    margin-bottom: 25px;
+}
+
+
+/* FEATURES */
+
+.about-features h5{
+
+    margin-bottom: 15px;
+
+    font-size: 20px;
+}
+
+
+/* BUTTON */
+
+.about-btn{
+
+    margin-top: 20px;
+
+    padding: 12px 30px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: orange;
+
+    color: white;
+
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+
+/* BUTTON HOVER */
+
+.about-btn:hover{
+
+    background-color: white;
+
+    color: orange;
+
+    transform: scale(1.05);
+}
+
+.img-fluid{
+    height: 40%;
+}
+
+
+/* MOBILE VIEW */
+
+@media(max-width:480px){
+
+    .about-content h1{
+        font-size: 36px;
+    }
+
+    .about-content p{
+        font-size: 15px;
+    }
+
+    .about-features h5{
+        font-size: 16px;
+    }
+
+    .about-btn{
+        width: 100%;
+    }
+
+}/* MENU SECTION */
+
+.menu-section{
+
+    background-color: #111;
+
+    min-height: 100vh;
+
+    padding: 80px 20px;
+}
+
+
+/* MENU HEADING */
+
+.menu-heading h4{
+
+    color: orange;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+
+.menu-heading h1{
+
+    color: white;
+
+    font-size: 55px;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+
+.menu-heading p{
+
+    color: #dcdcdc;
+
+    font-size: 18px;
+
+    margin-bottom: 50px;
+}
+
+
+
+/* CARD */
+
+.menu-card{
+
+    background-color: #1b1b1b;
+
+    border: none;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+}
+
+
+/* CARD HOVER */
+
+.menu-card:hover{
+
+    transform: translateY(-10px);
+}
+
+
+
+/* CARD IMAGE */
+
+.menu-card img{
+
+    height: 250px;
+
+    object-fit: cover;
+}
+
+
+
+/* CARD BODY */
+
+.card-body{
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+
+/* CARD TITLE */
+
+.card-title{
+
+    color: white;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    margin-top: 10px;
+}
+
+
+
+/* CARD TEXT */
+
+.card-text{
+
+    color: #dcdcdc;
+
+    font-size: 15px;
+
+    margin: 15px 0;
+}
+
+
+
+/* PRICE */
+
+.price{
+
+    color: orange;
+
+    margin-bottom: 20px;
+
+    font-weight: bold;
+}
+
+
+
+/* BUTTON */
+
+.order-btn{
+
+    padding: 10px 24px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: orange;
+
+    color: white;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+
+
+/* BUTTON HOVER */
+
+.order-btn:hover{
+
+    background-color: white;
+
+    color: orange;
+
+    transform: scale(1.05);
+}
+
+
+
+/* MOBILE VIEW */
+
+@media(max-width:480px){
+
+    .menu-heading h1{
+
+        font-size: 38px;
+    }
+
+
+    .menu-heading p{
+
+        font-size: 15px;
+    }
+
+
+    .menu-card img{
+
+        height: 220px;
+    }
+
+
+    .card-title{
+
+        font-size: 20px;
+    }
+
+
+    .card-text{
+
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* TABLET VIEW */
+
+@media(min-width:481px) and (max-width:768px){
+
+    .menu-heading h1{
+
+        font-size: 45px;
+    }
+
+
+    .menu-card img{
+
+        height: 230px;
     }
 
 }
